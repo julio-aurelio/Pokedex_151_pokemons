@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+<div class="header">
+    <img src="img/LogoPikachu.png" class="pikachu">
+    <h1 class="logo">Pokedex do SENAI</h1>
+    <img src="img/Pokebola-pokeball-png-0.png" class="pokebola">
+</div>
+<link rel="shortcut icon" href="img/Pokebola-pokeball-png-0.png">
+    </header>
+    <nav class="menu">
+        <div class="barrinhas">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul>
+            <li class="item">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">home</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="fogo.html">
+                    <span class="icon"><i class="bi bi-fire"></i></span>
+                    <span class="txt-link">fogo</span>
+                </a>
+                <li class="item">
+                    <a href="planta.html">
+                      <span class="icon"><i class="bi bi-flower2"></i></span>
+                      <span class="txt-link">planta</span>
+                    </a>
+                    </li>
+                  <li class="item">
+                    <a href="normal.html">
+                      <span class="icon"><i class="bi bi-asterisk"></i></i></span>
+                      <span class="txt-link">normal</span>
+                    </a>
+                    <li class="item">
+                        <a href="eletrico.html">
+                          <span class="icon"><i class="bi bi-lightning-fill"></i></i></span>
+                          <span class="txt-link">eletrico</span>
+                        </a>
+                      </li>
+                      <li class="item">
+                        <a href="inseto.html">
+                          <span class="icon"><i class="bi bi-bug"></i></span>
+                          <span class="txt-link">inseto</span>
+                        </a>
+                      </li>
+                  </li>
+                  
+                  <li class="item">
+                    <a href="agua.html">
+                      <span class="icon"><i class="bi bi-droplet"></i></span>
+                      <span class="txt-link">água</span>
+                    </a>
+                    </li>
+                    <li class="item">
+                        <a href="gelo.html">
+                          <span class="icon"><i class="bi bi-snow2"></i></span>
+                          <span class="txt-link">gelo</span>
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a href="psiquicos.html">
+                              <span class="icon"><i class="bi bi-infinity"></i></span>
+                              <span class="txt-link">psiquico</span>
+                            </a>
+                            </li>
+            
+             <li class="item">
+                <a href="fantasma.html">
+                  <span class="icon"><i class="bi bi-hurricane"></i></span>
+                  <span class="txt-link">fantasma</span>
+                </a>
+                </li>
+                <li class="item">
+                    <a href="fada.html">
+                      <span class="icon"><i class="bi bi-stars"></i></span>
+                      <span class="txt-link">fada</span>
+                    </a>
+                    </li>
+                    <li class="item">
+                        <a href="dragao.html">
+                          <span class="icon"><i class="bi bi-brilliance"></i></span>
+                          <span class="txt-link">dragao</span>
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a href="lutador.html">
+                              <span class="icon"><i class="bi bi-hammer"></i></span>
+                              <span class="txt-link">lutador</span>
+                            </a>
+                            </li>
+                            <li class="item">
+                                <a href="veneno.html">
+                                  <span class="icon"><i class="bi bi-eyedropper"></i></span>
+                                  <span class="txt-link">veneno</span>
+                                </a>
+                                </li>
+                                <li class="item">
+                                    <a href="pedra.html">
+                                      <span class="icon"><i class="bi bi-heptagon-fill"></i></span>
+                                      <span class="txt-link">pedra</span>
+                                    </a>
+                                    </li>
+             </ul>
+    </nav>
+    <main>
+        <div class="card Grass" onclick="playAudio('audiobuba')">
+            <img src="img/bulbasaur.avif">
+            <p>Bulbasaur</p>
+            <p>0001</p>
+            <p>grama</p>
+            <audio id="audiobuba"  src="mp3/Voicy_2- Bulbasaur Sounds_ Pokemon Snap.mp3"> som</audio>
+            </div>
+        <label for="flip" class="flip-label"></label>
+        </div>
+        <div class="card Grass">
+            <img src="img/ivysaur.avif" onclick="playAudio('audioivysaur')">
+            <p>	Ivysaur</p>
+            <p>0002</p>
+            <p >grama</p>
+            <audio id="audioivysaur"  src="mp3/Ivysaursoundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/venusaur.avif" onclick="playAudio('audioivenusar')">
+            <p>Venusaur</p>
+            <p>0003</p>
+            <p>grama</p>
+            <audio id="audioivenusar"  src="mp3/venusaur-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Fire" onclick="playAudio('audiocharmander')">
+            <img src="img/charmander.avif">
+            <p>Charmander</p>
+            <p>0004</p>
+            <p>fogo</p>
+            <audio id="audiocharmander"  src="mp3/Voicy_Charmander Anime Cry 2.mp3"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/charmeleon.avif" onclick="playAudio('audiocharmeleon')">
+            <p>	Charmeleon</p>
+            <p>0005</p>
+            <p>fogo</p>
+            <audio id="audiocharmeleon"  src="mp3/Voicy_Charmeleon Pokemon - 5.mp3"> som</audio>
+        </div>
+        
+        <div class="card Fire">
+            <img src="img/charizard.avif" onclick="playAudio('audiocharizard')">
+            <p>Charizard</p>
+            <p>0006</p>
+            <p>fogo</p>
+            <audio id="audiocharizard"  src="mp3/Voicy_Charizard sound effect 2.mp3"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/squirtle.avif" onclick="playAudio('audiosquirtle')">
+            <p>	Squirtle</p>
+            <p>0007</p>
+            <p>água</p>
+            <audio id="audiosquirtle"  src="mp3/Voicy_squırtle.mp3"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/wartortle.avif" onclick="playAudio('audiowartotle')">
+            <p>Wartortle</p>
+            <p>0008</p>
+            <p>água</p>
+            <audio id="audiowartotle"  src="mp3/wartortle-freakout-wartortle-freakout-anime-101soundboards (1).mp3"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/blastoise.avif" onclick="playAudio('audioblastoise')">
+            <p>Blastoise</p>
+            <p>0009</p>
+            <p>água</p>
+            <audio id="audioblastoise"  src="mp3/pokemon-blastoise-usa-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/caterpie.avif" onclick="playAudio('audiocartepie')">
+            <p>Caterpie</p>
+            <p>0010</p>
+            <p>inseto</p>
+            <audio id="audiocartepie"  src="mp3/caterpie3-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/metapod.avif"  onclick="playAudio('audiometapod')">
+            <p>	Metapod</p>
+            <p>0011</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/butterfree.avif"  onclick="playAudio('audiobutterfree')">
+            <p>Butterfree</p>
+            <p>0012</p>
+            <p>inseto</p>
+            <audio id="audiobutterfree"  src="mp3/butterfree-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/weedle.avif"  onclick="playAudio('audioweedle')">
+            <p>Weedle</p>
+            <p>0013</p>
+            <p>inseto</p>
+            <audio id="audioweedle"  src="mp3/013-weedle.mp3"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/kakuna.avif"  onclick="playAudio('audiokakuna')">
+            <p>Kakuna</p>
+            <p>0014</p>
+            <p>inseto</p>
+            <audio id="audiokakuna"  src="mp3/14-kanto-kakuna-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/beedrill.avif"  onclick="playAudio('audiobeedrill')">
+            <p>Beedrill</p>
+            <p>0015</p>
+            <p>inseto</p>
+            <audio id="audiobeedrill"  src="mp3/15-kanto-beedrill-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/pidgey.avif"  onclick="playAudio('audiopidgey')">
+            <p>	Pidgey</p>
+            <p>0016</p>
+            <p>normal</p>
+            <audio id="audiopidgey"  src="mp3/pidgey-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/pidgeotto.avif"  onclick="playAudio('audiopidgeotto')">
+            <p>Pidgeotto</p>
+            <p>0017</p>
+            <p>normal</p>
+            <audio id="audiopidgeotto"  src="mp3/pidgeotto-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/pidgeot.avif" onclick="playAudio('audiopidgeot')">
+            <p>	Pidgeot</p>
+            <p>0018</p>
+            <p>normal</p>
+            <audio id="audiopidgeot"  src="mp3/pidgeot-courageous-flying-squawk-101soundboards.mp3"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/rattata.avif" onclick="playAudio('audiorattata')">
+            <p>	Rattata</p>
+            <p>0019</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/raticate.avif" onclick="playAudio('audioraticate')">
+            <p>Raticate</p>
+            <p>0020</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/spearow.avif" onclick="playAudio('audiospearow')">
+            <p>Spearow</p>
+            <p>0021</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/fearow.avif" onclick="playAudio('audiofearow')">
+            <p>	Fearow</p>
+            <p>0022</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/ekans.avif" onclick="playAudio('audioekans')">
+            <p>Ekans</p>
+            <p>0023</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+        
+        <div class="card Poison">
+            <img src="img/arbok.avif" onclick="playAudio('audioarbok')">
+            <p>Arbok</p>
+            <p>0024</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Electric">
+            <img src="img/pikachu.avif" onclick="playAudio('audiopikachu')">
+            <p>Pikachu</p>
+            <p>0025</p>
+            <p>eletrico</p>
+            <audio id="audiopikachu"  src="mp3/Voicy_Pikachu soundbite.mp3"></audio>
+        </div>
+
+        <div class="card Electric">
+            <img src="img/raichu.avif" onclick="playAudio('audioraichu')">
+            <p>Raichu</p>
+            <p>0026</p>
+            <p>eletrico</p>
+            <audio id="audioraichu"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ground">
+            <img src="img/sandshrew.avif" onclick="playAudio('audio')">
+            <p>Sandshrew</p>
+            <p>0027</p>
+            <p>terra</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ground">
+            <img src="img/sandslash.avif" onclick="playAudio('audio')">
+            <p>Sandslash</p>
+            <p>0028</p>
+            <p>terra</p>
+            <audio id="audio"  src="mp3/" onclick="playAudio('audio')">
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidoran-f.avif" onclick="playAudio('audio')">
+            <p>Nidoran</p>
+            <p>0029</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidorina.avif" onclick="playAudio('audio')">
+            <p>Nidorina</p>
+            <p>0030</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidoqueen.avif" onclick="playAudio('audio')">
+            <p>	Nidoqueen</p>
+            <p>0031</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidoran-m.avif" onclick="playAudio('audio')">
+            <p>Nidoran</p>
+            <p>0032</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidorino.avif" onclick="playAudio('audio')">
+            <p>Nidorino</p>
+            <p>0033</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/nidoking.avif" onclick="playAudio('audio')">
+            <p>	Nidoking</p>
+            <p>0034</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fairy">
+            <img src="img/clefairy.avif" onclick="playAudio('audio')">
+            <p>Clefairy</p>
+            <p>0035</p>
+            <p>fada</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fairy">
+            <img src="img/clefable.avif" onclick="playAudio('audio')">
+            <p>	Clefable</p>
+            <p>0036</p>
+            <p>fada</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/vulpix.avif" onclick="playAudio('audio')">
+            <p>	Vulpix</p>
+            <p>0037	</p>
+            <p>fogo</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/ninetales.avif" onclick="playAudio('audio')">
+            <p>Ninetales</p>
+            <p>0038</p>
+            <p>fogo</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fairy">
+            <img src="img/jigglypuff.avif" onclick="playAudio('audio')">
+            <p>Jigglypuff</p>
+            <p>0039</p>
+            <p>fada</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fairy">
+            <img src="img/wigglytuff.avif" onclick="playAudio('audio')">
+            <p>Wigglytuff</p>
+            <p>0040</p>
+            <p>fada</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/zubat.avif" onclick="playAudio('audio')">
+            <p>Zubat</p>
+            <p>0041</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+        
+        <div class="card Poison">
+            <img src="img/golbat.avif" onclick="playAudio('audio')">
+            <p>Golbat</p>
+            <p>0042</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/oddish.avif" onclick="playAudio('audio')">
+            <p>Oddish</p>
+            <p>0043</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/gloom.avif" onclick="playAudio('audio')">
+            <p>	Gloom</p>
+            <p>0044</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/vileplume.avif" onclick="playAudio('audio')">
+            <p>Vileplume</p>
+            <p>0045</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/paras.avif" onclick="playAudio('audio')">
+            <p>Paras</p>
+            <p>0046</p>
+            <p>inseto</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/parasect.avif" onclick="playAudio('audio')">
+            <p>Parasect</p>
+            <p>0047</p>
+            <p>inseto</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/venonat.avif" onclick="playAudio('audio')">
+            <p>Venonat</p>
+            <p>0048</p>
+            <p>inseto</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Bug">
+            <img src="img/venomoth.avif" onclick="playAudio('audio')">
+            <p>Venomoth</p>
+            <p>0049</p>
+            <p>inseto</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ground">
+            <img src="img/diglett.avif" onclick="playAudio('audio')">
+            <p>Diglett</p>
+            <p>0050</p>
+            <p>terra</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ground">
+            <img src="img/dugtrio.avif" onclick="playAudio('audio')">
+            <p>Dugtrio</p>
+            <p>0051</p>
+            <p>terra</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/meowth.avif" onclick="playAudio('audio')">
+            <p>Meowth</p>
+            <p>0052</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/persian.avif" onclick="playAudio('audio')">
+            <p>Persian</p>
+            <p>0053</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/psyduck.avif" onclick="playAudio('audio')">
+            <p>Psyduck</p>
+            <p>0054</p>
+            <p>água</p>]
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/golduck.avif" onclick="playAudio('audio')">
+            <p>Golduck</p>
+            <p>0055</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fighting">
+            <img src="img/mankey.avif" onclick="playAudio('audio')">
+            <p>Mankey</p>
+            <p>0056</p>
+            <p>lutador</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fighting">
+            <img src="img/primeape.avif" onclick="playAudio('audio')">
+            <p>Primeape</p>
+            <p>0057</p>
+            <p>lutador</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/growlithe.avif" onclick="playAudio('audio')">
+            <p>Growlithe</p>
+            <p>0058</p>
+            <p>fogo</p>
+            ]<audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/arcanine.avif" onclick="playAudio('audio')">
+            <p>Arcanine</p>
+            <p>0059</p>
+            <p>fogo</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+        
+        <div class="card Water">
+            <img src="img/poliwag.avif" onclick="playAudio('audio')">
+            <p>Poliwag</p>
+            <p>0060</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/poliwhirl.avif" onclick="playAudio('audio')">
+            <p>Poliwhirl</p>
+            <p>0061</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/poliwrath.avif" onclick="playAudio('audio')">
+            <p>	Poliwrath</p>
+            <p>0062</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarl" onclick="playAudio('audio')">
+            <p>Abra</p>
+            <p>0063</p>
+            <p>psiquico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Psychic">
+            <img src="img/kadabra.avif" onclick="playAudio('audio')">
+            <p>Kadabra</p>
+            <p>0064</p>
+            <p>psiquico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Psychic">
+            <img src="img/alakazam.avif" onclick="playAudio('audio')">
+            <p>Alakazam</p>
+            <p>0065</p>
+            <p>psiquico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fighting">
+            <img src="img/machop.avif" onclick="playAudio('audio')">
+            <p>Machop</p>
+            <p>0066</p>
+            <p>lutador</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fighting">
+            <img src="img/machoke.avif" onclick="playAudio('audio')">
+            <p>Machoke</p>
+            <p>0067</p>
+            <p>lutador</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fighting">
+            <img src="img/machamp.avif" onclick="playAudio('audio')">
+            <p>Machamp</p>
+            <p>0068</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/bellsprout.avif" onclick="playAudio('audio')">
+            <p>Bellsprout</p>
+            <p>0069</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/weepinbell.avif" onclick="playAudio('audio')">
+            <p>	Weepinbell</p>
+            <p>0070</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/victreebel.avif" onclick="playAudio('audio')">
+            <p>Victreebel</p>
+            <p>0071</p>
+            <p>planta</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/tentacool.avif" onclick="playAudio('audio')">
+            <p>Tentacool</p>
+            <p>0072</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/tentacruel.avif" onclick="playAudio('audio')">
+            <p>Tentacruel</p>
+            <p>0073</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Rock">
+            <img src="img/geodude.avif" onclick="playAudio('audio')">
+            <p>Geodude</p>
+            <p>0074</p>
+            <p>pedra</p><audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Rock">
+            <img src="img/graveler.avif" onclick="playAudio('audio')">
+            <p>Graveler</p>
+            <p>0075</p>
+            <p>pedra</p><audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Rock">
+            <img src="img/golem.avif" onclick="playAudio('audio')">
+            <p>Golem</p>
+            <p>0076</p>
+            <p>pedra</p><audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="img/ponyta.avif" onclick="playAudio('audio')">
+            <p>Ponyta</p>
+            <p>0077</p>
+            <p>fogo</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+        
+        <div class="card Fire">
+            <img src="img/rapidash.avif" onclick="playAudio('audio')">
+            <p>Rapidash</p>
+            <p>0078</p>
+            <p>fogo</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/slowpoke.avif" onclick="playAudio('audio')">
+            <p>Slowpoke</p>
+            <p>0079</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/slowbro.avif" onclick="playAudio('audio')">
+            <p>	Slowbro</p>
+            <p>0080</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Electric">
+            <img src="img/magnemite.avif" onclick="playAudio('audio')">
+            <p>Magnemite</p>
+            <p>0081</p>
+            <p>eletrico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Electric">
+            <img src="img/magneton.avif" onclick="playAudio('audio')">
+            <p>Magneton</p>
+            <p>0082</p>
+            <p>eletrico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/farfetchd.avif" onclick="playAudio('audio')">
+            <p>Farfetch'd</p>
+            <p>0083</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/doduo.avif" onclick="playAudio('audio')">
+            <p>Doduo</p>
+            <p>0084</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Normal">
+            <img src="img/dodrio.avif" onclick="playAudio('audio')">
+            <p>Dodrio</p>
+            <p>0085</p>
+            <p>normal</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/seel.avif" onclick="playAudio('audio')">
+            <p>	Seel</p>
+            <p>0086</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/dewgong.avif" onclick="playAudio('audio')">
+            <p>Dewgong</p>
+            <p>0087</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/grimer.avif" onclick="playAudio('audio')">
+            <p>Grimer</p>
+            <p>0088</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Poison">
+            <img src="img/muk.avif" onclick="playAudio('audio')">
+            <p>Muk</p>
+            <p>0089</p>
+            <p>veneno</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/shellder.avif" onclick="playAudio('audio')">
+            <p>Shellder</p>
+            <p>0090</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="img/cloyster.avif" onclick="playAudio('audio')">
+            <p>Cloyster</p>
+            <p>0091</p>
+            <p>água</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ghost">
+            <img src="img/gastly.avif" onclick="playAudio('audio')">
+            <p>Gastly</p>
+            <p>0092</p>
+            <p>fantasma</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ghost">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/haunter.avif" onclick="playAudio('audio')">
+            <p>	Haunter</p>
+            <p>0093</p>
+            <p>fantasma</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Ghost">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gengar.avif" onclick="playAudio('audio')">
+            <p>Gengar</p>
+            <p>0094</p>
+            <p>fantasma</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/onix.avif" onclick="playAudio('audio')">
+            <p>Onix</p>
+            <p>0095</p>
+            <p>pedra</p>
+        </div>
+        
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/drowzee.avif" onclick="playAudio('audio')">
+            <p>Drowzee</p>
+            <p>0096</p>
+            <p>psiquico</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hypno.avif" onclick="playAudio('audio')">
+            <p>Hypno</p>
+            <p>0097</p>
+            <p>psiquico</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/krabby.avif" onclick="playAudio('audio')">
+            <p>Krabby</p>
+            <p>0098</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kingler.avif"onclick="playAudio('audio')">
+            <p>Kingler</p>
+            <p>0099</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/voltorb.avif" onclick="playAudio('audio')">
+            <p>Voltorb</p>
+            <p>0100</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/electrode.avif" onclick="playAudio('audio')">
+            <p>Electrode</p>
+            <p>0101</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/exeggcute.avif" onclick="playAudio('audio')">
+            <p>Exeggcute</p>
+            <p>0102</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/exeggutor.avif" onclick="playAudio('audio')">
+            <p>Exeggutor</p>
+            <p>0103</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/cubone.avif" onclick="playAudio('audio')">
+            <p>Cubone</p>
+            <p>0104</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/marowak.avif" onclick="playAudio('audio')">
+            <p>Marowak</p>
+            <p>0105</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hitmonlee.avif" onclick="playAudio('audio')">
+            <p>Hitmonlee</p>
+            <p>0106</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hitmonchan.avif" onclick="playAudio('audio')">
+            <p>Hitmonchan</p>
+            <p>0107</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/lickitung.avif" onclick="playAudio('audio')">
+            <p>Lickitung</p>
+            <p>0108</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/koffing.avif" onclick="playAudio('audio')">
+            <p>Koffing</p>
+            <p>0109</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/weezing.avif" onclick="playAudio('audio')">
+            <p>Weezing</p>
+            <p>0110</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rhyhorn.avif" onclick="playAudio('audio')">
+            <p>Rhyhorn</p>
+            <p>0111</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rhydon.avif" onclick="playAudio('audio')">
+            <p>Rhydon</p>
+            <p>0112</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/chansey.avif" onclick="playAudio('audio')">
+            <p>Chansey</p>
+            <p>0113</p>
+            <p>normal</p>
+        </div>
+        
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tangela.avif" onclick="playAudio('audio')">
+            <p>Tangela</p>
+            <p>0114</p>
+            <p>planta
+            </p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kangaskhan.avif" onclick="playAudio('audio')">
+            <p>Kangaskhan</p>
+            <p>0115</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/horsea.avif" onclick="playAudio('audio')">
+            <p>Horsea</p>
+            <p>0116</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/seadra.avif" onclick="playAudio('audio')">
+            <p>	Seadra</p>
+            <p>0117</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/goldeen.avif" onclick="playAudio('audio')">
+            <p>Goldeen</p>
+            <p>0118</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/seaking.avif" onclick="playAudio('audio')">
+            <p>Seaking</p>
+            <p>0119</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/staryu.avif" onclick="playAudio('audio')">
+            <p>Staryu</p>
+            <p>0120</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/starmie.avif" onclick="playAudio('audio')">
+            <p>Starmie</p>
+            <p>0121</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/mr-mime.avif" onclick="playAudio('audio')">
+            <p>Mr. Mime</p>
+            <p>0122</p>
+            <p>psiquico</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/scyther.avif" onclick="playAudio('audio')">
+            <p>Scyther</p>
+            <p>0123</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/jynx.avif" onclick="playAudio('audio')">
+            <p>Jynx</p>
+            <p>0124</p>
+            <p>gelo</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/electabuzz.avif" onclick="playAudio('audio')">
+            <p>Electabuzz</p>
+            <p>0125</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magmar.avif" onclick="playAudio('audio')">
+            <p>Magmar</p>
+            <p>0126</p>
+            <p>fogo
+            </p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pinsir.avif" onclick="playAudio('audio')">
+            <p>Pinsir</p>
+            <p>0127</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tauros.avif" onclick="playAudio('audio')">
+            <p>Tauros</p>
+            <p>0128</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magikarp.avif" onclick="playAudio('audio')">
+            <p>Magikarp</p>
+            <p>0129</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gyarados.avif" onclick="playAudio('audio')">
+            <p>Gyarados</p>
+            <p>0130</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/lapras.avif" onclick="playAudio('audio')">
+            <p>Lapras</p>
+            <p>0131</p>
+            <p>gelo</p>
+        </div>
+        
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/ditto.avif" onclick="playAudio('audio')">
+            <p>Ditto</p>
+            <p>0132</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/eevee.avif" onclick="playAudio('audio')">
+            <p>Eevee</p>
+            <p>0133</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/vaporeon.avif" onclick="playAudio('audio')">
+            <p>Vaporeon</p>
+            <p>0134</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/jolteon.avif" onclick="playAudio('audio')">
+            <p>	Jolteon</p>
+            <p>0135</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/flareon.avif" onclick="playAudio('audio')">
+            <p>Flareon</p>
+            <p>0136</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/porygon.avif" onclick="playAudio('audio')">
+            <p>	Porygon</p>
+            <p>0137</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/omanyte.avif" onclick="playAudio('audio')">
+            <p>Omanyte</p>
+            <p>0138</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/omastar.avif" onclick="playAudio('audio')">
+            <p>Omastar</p>
+            <p>0139</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kabuto.avif" onclick="playAudio('audio')">
+            <p>Kabuto</p>
+            <p>0140</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kabutops.avif" onclick="playAudio('audio')">
+            <p>Kabutops</p>
+            <p>0141</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/aerodactyl.avif" onclick="playAudio('audio')">
+            <p>Aerodactyl</p>
+            <p>0142</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/snorlax.avif" onclick="playAudio('audio')">
+            <p>Snorlax</p>
+            <p>0143</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/articuno.avif" onclick="playAudio('audio')">
+            <p>	Articuno</p>
+            <p>0144</p>
+            <p>gelo</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/zapdos.avif" onclick="playAudio('audio')">
+            <p>	Zapdos</p>
+            <p>0145</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/moltres.avif" onclick="playAudio('audio')">
+            <p>Moltres</p>
+            <p>0146</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dratini.avif" onclick="playAudio('audio')">
+            <p>Dratini</p>
+            <p>0147</p>
+            <p>dragão</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dragonair.avif" onclick="playAudio('audio')">
+            <p>Dragonair</p>
+            <p>0148</p>
+            <p>dragão</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="img/dragonite.avif" onclick="playAudio('audio')">
+            <p>Dragonite</p>
+            <p>0149</p>
+            <p>dragão</p>
+
+        </div>
+        
+        <div class="card Psychic">
+            <img src="img/mewtwo.avif" onclick="playAudio('audio')">
+            <p>	Mewtwo</p>
+            <p>0150</p>
+            <p>psiquico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+
+        <div class="card Psychic">
+            <img src="img/mew.avif" onclick="playAudio('audio')">
+            <p>Mew</p>
+            <p>0151</p>
+            <p>psiquico</p>
+            <audio id="audio"  src="mp3/"> som</audio>
+        </div>
+        
+    </main>
+    <footer>
+        <div >
+            All content &amp; design &copy; Pokémon Database, 2008-2025.
+            Pokémon images &amp; names &copy; 1995-2025 Nintendo/Game Freak.
+            <br>
+            Feito por Julio 😾
+        </div>
+    </footer>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card")), {
+            max: 30,
+            speed:500,
+            glare: true,
+            glare: 0.5,
+        }
+    </script>
+   <script>
+    let currentAudio = null; 
+    
+    
+    function playAudio(id) {
+        if (currentAudio && !currentAudio.paused) {
+            stopAudio();
+        }
+    
+        currentAudio = document.getElementById(id);
+        currentAudio.play();
+    }
+    
+    
+    function stopAudio() {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0; 
+        }
+    }
+    
+    
+    document.addEventListener("click", function(event) {
+        let cards = document.querySelectorAll(".card");
+        let clickedInsideCard = false;
+    
+     
+        cards.forEach(card => {
+            if (card.contains(event.target)) {
+                clickedInsideCard = true;
+            }
+        });
+    
+     
+        if (!clickedInsideCard && currentAudio) {
+            stopAudio();
+        }
+    });
+    </script>
+    
+</body>
+</html>
